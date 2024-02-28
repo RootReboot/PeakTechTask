@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ProtoEntities\StorageService.GrpcLayer.csproj" />
+    <ProjectReference Include="..\StorageService.GrpcLayer\StorageService.GrpcLayer.csproj" />
   </ItemGroup>
 
 </Project>

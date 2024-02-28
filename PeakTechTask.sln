@@ -7,13 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PixelService", "PixelServic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StorageService", "StorageService\StorageService.csproj", "{675C2A2F-BAE8-46A2-9522-42C3DBED8CB8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StorageService.GrpcLayer", "ProtoEntities\StorageService.GrpcLayer.csproj", "{7F9260EF-0351-4BBE-AC62-F85C2DE5A75B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{5A80EB12-A15B-44EC-837E-8F68F213DD69}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StorageServiceGrpcLayer.UnitTests", "StorageServiceGrpcLayer.UnitTests\StorageServiceGrpcLayer.UnitTests.csproj", "{2D1EF604-2265-46A1-9980-8558E04F9730}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageService.UnitTests", "StorageService.UnitTests\StorageService.UnitTests.csproj", "{641B2DE0-B665-4B42-89A3-5D42F7A7AE22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StorageService.GrpcLayer", "StorageService.GrpcLayer\StorageService.GrpcLayer.csproj", "{E032E537-E77D-4AAF-B769-8783B9835BFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,6 @@ Global
 		{675C2A2F-BAE8-46A2-9522-42C3DBED8CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{675C2A2F-BAE8-46A2-9522-42C3DBED8CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{675C2A2F-BAE8-46A2-9522-42C3DBED8CB8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7F9260EF-0351-4BBE-AC62-F85C2DE5A75B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7F9260EF-0351-4BBE-AC62-F85C2DE5A75B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7F9260EF-0351-4BBE-AC62-F85C2DE5A75B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7F9260EF-0351-4BBE-AC62-F85C2DE5A75B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2D1EF604-2265-46A1-9980-8558E04F9730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2D1EF604-2265-46A1-9980-8558E04F9730}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D1EF604-2265-46A1-9980-8558E04F9730}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,6 +37,10 @@ Global
 		{641B2DE0-B665-4B42-89A3-5D42F7A7AE22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{641B2DE0-B665-4B42-89A3-5D42F7A7AE22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{641B2DE0-B665-4B42-89A3-5D42F7A7AE22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E032E537-E77D-4AAF-B769-8783B9835BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E032E537-E77D-4AAF-B769-8783B9835BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E032E537-E77D-4AAF-B769-8783B9835BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E032E537-E77D-4AAF-B769-8783B9835BFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
