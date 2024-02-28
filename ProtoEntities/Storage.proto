@@ -1,0 +1,12 @@
+﻿syntax = "proto3";
+import "google/protobuf/empty.proto";
+
+service StorageServiceGrpc {
+  rpc SendPixelData (PixelDataRequest) returns (google.protobuf.Empty);
+}
+
+message PixelDataRequest {
+  string referrer = 1;
+  string user_agent = 2;
+  string ip_address = 3;
+}
