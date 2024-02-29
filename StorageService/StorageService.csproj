@@ -16,6 +16,8 @@
 
   <PropertyGroup>
    <ServerGarbageCollection>true</ServerGarbageCollection>
+   <UserSecretsId>616b2891-fdc4-4f49-95af-3d25c9c75eb0</UserSecretsId>
+   <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
 </Project>
