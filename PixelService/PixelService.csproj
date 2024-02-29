@@ -18,6 +18,7 @@
 
   <PropertyGroup>
    <ServerGarbageCollection>true</ServerGarbageCollection>
+   <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
 
